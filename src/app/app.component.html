@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Bem-vindo {{ title }}!
+  </h1>
+</div>
+
+<h2 *ngIf="isRoot()" style="text-align:center">Clique aqui para fazer <a routerLink="/login">Login</a>. </h2>
+
+<router-outlet></router-outlet>
